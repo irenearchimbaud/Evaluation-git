@@ -58,7 +58,13 @@ accessible, ergonomique et de confiance
 
 Les moteurs de recherches fonctionnement grace a des KeyWord (mots clés).
 
+Les mots clés sont indispensables, ils sont utilisés dans les sites pour leur référencement et par les utilisateurs pour leurs recherches.
+
+Il faut se baser sur certains mots clés, pour commencer une étude de SEO.
+
 Son but est de comprendre au maximum l'intention de l'internaute, qui vont passer avant le résultat 0.
+
+Il faut trouver les mots clés, les tester (volume de requête, nombre de résultats) puis les arbitrer (savoir expliquer ses choix de mots clés).
 
 
 #
@@ -68,6 +74,47 @@ Son but est de comprendre au maximum l'intention de l'internaute, qui vont passe
 - Balise title
 - Balise meta type description (paragraphe sous le titre lors d'une recherche)
 
+### Composition d'une page WEB
+
+Il y a trois endroits dans lesquels placer les mots clés pour optimiser le référencement d'une page WEB:
+
+- Dans l'entête de la page (HEAD): cette partie est invisible pour l'utilisateur, mais elle est lue par les moteurs de recherche et par le navigateur. Elle contient des informations sur la page comme le titre, la description, les mots-clés etc
+- Dans le corps de la page (BODY): c'est la partie visible de la page, c'est là qu'on place le contenu
+- Dans les adresses (URL) des pages: les mots clés dans l'URL sont très imortants pour le référencement.
+
 ### OneBox
 
 Affiche par exemple les résultats récents de compétitions de différents sports
+
+### Moteur de recherche VS annuaire
+
+Annuaire: Ouvrage classé par ordre alphabétique, long et difficile a mettre a jour etc. Les annuaires sont encore très utilisés, notamment par un public plus ancien (Exemple: les pages jaunes).
+
+Les 3/4 des internautes ne vont pas plus loin que la première page pour les informations à trouver
+
+### SGE (Google Search Generative Experience)
+
+Possibilité de faire des recherches en integrant directement l'IA (Gemini) dans les recherches. Bing intègre la même chose avec son IA ChatGpt.
+
+#
+
+### Les objectfis du site WEB
+
+#### `Pourquoi ?`
+
+Les mots clés SEO
+
+#### `Comment ?`
+
+Quel/s sera/ont le/les contenu/s du site WEB.
+
+#### `Contre qui ?`
+
+Les concurrents
+
+### Typologie des sites WEB
+
+- Sites Vitrines
+- Sites E-Commerce
+- Sites WebApp
+- Sites Institutionnels
