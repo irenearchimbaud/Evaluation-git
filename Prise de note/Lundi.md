@@ -82,6 +82,31 @@ Il y a trois endroits dans lesquels placer les mots clés pour optimiser le réf
 - Dans le corps de la page (BODY): c'est la partie visible de la page, c'est là qu'on place le contenu
 - Dans les adresses (URL) des pages: les mots clés dans l'URL sont très imortants pour le référencement.
 
+##
+
+`La Balise TITLE`
+
+Le contenu de la balise title s'affiche dans les serps et sur l'onglet de la page concernée. le titre doit a la fois contenir des mimts clés et informer l'utilisateur sur le contenu de la page
+ 
+Conseil de rédaction:
+
+- Clareté et précision
+- Se limiter a une dizaine de mots (en réalité c'est beaucoup moins)
+- Trouver une expression qui inclut le plus de mots clés possibles
+- Personnaliser le titre de chaque page
+- Essayer de placer les mots clés en début de phrase (pour la balise title le nombre de caractères reconnus peut varier d'un moteur de recherche a un autre)
+- Eviter les mots clés redondants, ou trop génériques
+
+`La Balise META`
+
+La balise meta est une balise HTML qui permet de définir des métadonnées qui ne sont pas affichées à l'écran. Il y a encore trop peu de pages qui ne contiennent pas de balsies meta.
+L'évolution récente des moteurs de recherche a rendu ces balises moins importantes pour le référencement, mais elle restent utiles pour d'autres raisons.
+Il faut les faire figurer sur toutes les pages.
+
+`La Balise META description`
+
+La balise meta description est un résumé de la page qui s'affiche dans les SERPs. Elle doit être claire, concise et informative. Elle doit contenir les mots clés et inciter l'utilisateur a cliquer sur le lien.
+
 ### OneBox
 
 Affiche par exemple les résultats récents de compétitions de différents sports
