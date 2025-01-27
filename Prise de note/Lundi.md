@@ -107,6 +107,24 @@ Il faut les faire figurer sur toutes les pages.
 
 La balise meta description est un résumé de la page qui s'affiche dans les SERPs. Elle doit être claire, concise et informative. Elle doit contenir les mots clés et inciter l'utilisateur a cliquer sur le lien.
 
+`La Balise META Robotd`
+
+Elle indique aux robots des moteurs de recherche comment ils doivent se comporter avec la page: l'indexer ou non, suivre les liens ou non etc.
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
+
+Vous pouvez spécifier d'autres instructions:
+
+`nosnipets`: Empêche l'affichage d'un extrait de la page dans les SERPs
+
+`noarchive`: Empêche l'archivage de la page
+
+`unavailable_after`: Indique la date à partir de laquelle la page ne soit plus être indexe
+
+##
+
 ### OneBox
 
 Affiche par exemple les résultats récents de compétitions de différents sports
