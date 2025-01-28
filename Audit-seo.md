@@ -1,4 +1,4 @@
-# "Audit SEO pour Irène Archimbaud Photographie - Entreprise de photographie animalière"
+# Audit SEO pour Irène Archimbaud Photographie - Entreprise de photographie animalière
 
 ## Introduction
 
