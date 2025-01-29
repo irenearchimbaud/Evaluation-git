@@ -103,6 +103,10 @@ Pour les différents mots clés présentés ci dessus (Photographe animalier Lyo
 
 ### Choix des mots clés
 
+Lors des recherches des mots clés `Photograpge animalier lyon` la recherche aboutit a environs 230 000 résultats, il sera donc plus simple d'être référence dans un périmètre plus réduit comme celui-ci.
+
+Les résultats sont similaires pour `photographe canin lyon`, `photographe chien lyon`.
+
 `photographe` `canin` `chien` `animalier` `Lyon` `Rhone-Alpes`
 
 ### Optimisation du site
