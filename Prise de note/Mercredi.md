@@ -69,6 +69,11 @@ Il faut soigner le contenu, le titre l'url et eviter d'alourdir les documents le
 
 Il ne faut jamais indexer le contenu du site qui est crée par les internautes, pour éviter d'indexer des contenus qui peuvent être impertinents et on risquerait de se faire désindexer des pages google.
 
+Ne pas mettre trop de js, car le js peut être interprété plus difficilement (ça affecte le chargement de la page, et leurs lisibilité et visibilité, surtout si on les intègre avant les balisses meta). Il fait mettre les balises `<title>` et `<meta>` description le plus haut possible pour optimiser le référencement.
+Il faut mettre le script le plus bas possible pour optimiser le référencement.
+
+Attention aux redirections qui peuvent entrainer des erreurs 404 ce qui est très mauvais pour le référencement.
+
 # Optimiser un site offpage
 
 ## Indice de popularité
@@ -90,3 +95,11 @@ Il faut utiliser si possible des mots clés dans les noms de domaine
 `Confidentialité`: Les données sont chiffrées en chaine de caractères et donc impossible a déchiffrer pour l'humain.
 
 `Intégrité`: Si le fichier a été modifié ou non.
+
+## Site map
+
+La site map est la manière la plus sure d'indiquer à google la liste des pages de notre site.
+Elle contient uniquement la liste des pages a indexer.
+
+Pour l'envoyer a google il faut aller sur la google search console.
+
