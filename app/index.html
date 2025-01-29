@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <meta name="description" content="Photographe animalier spécialisée canin et équin basée à Lyon.
-        Déplacement en Rhone-Alpes (69) pour vos chiens, chevaux, chats et autres animaux de compagnie.">
-        <link rel="icon" href="./img/photo-ronde.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Photographe Animalier Lyon - Irène Archimbaud</title>
+        <meta name="description" content="Photographe animalier à Lyon spécialisée en photographie canine et équine. Shooting photo pour chiens, chevaux et animaux de compagnie en Rhône-Alpes.">
+        <meta name="keywords" content="photographe animalier Lyon, photographe canin Lyon, shooting photo chien Lyon, photographe animalier Rhône-Alpes">
+        <meta name="author" content="Irène Archimbaud">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" href="./img/photo-chien-icon.png" type="image/x-icon">
+        <meta property="og:title" content="Photographe Animalier Lyon - Irène Archimbaud">
+        <meta property="og:description" content="Shooting photo pour chiens, chevaux et animaux de compagnie à Lyon et Rhône-Alpes.">
+        <meta property="og:image" content="./img/photo-chien1.JPG">
+        <meta property="og:url" content="https://www.irene-archimbaud-photographie.fr">
+        <meta name="robots" content="index, follow">
+        <script src="./script.js"></script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Photographer",
+          "name": "Irène Archimbaud Photographie",
+          "description": "Photographe spécialisée en photographie animalière à Lyon : chiens, chevaux, chats et animaux de compagnie.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9 rue Jean-Eugène Culet",
+            "addressLocality": "Chaponost",
+            "addressRegion": "Rhône-Alpes",
+            "postalCode": "69043",
+            "addressCountry": "FR"
+          },
+          "telephone": "07.82.49.21.75",
+          "email": "ireneacd.photographie@gmail.com",
+          "url": "https://www.irene-archimbaud-photographie.fr"
+        }
+        </script>
     </head>
     <body>
 
         <!-- NAV -->
         <nav>
             <ul>
-                <li><a href="">ACCUEIL</a></li>
-                <li><a href="">PORTFOLLIO</a></li>
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./pages/portfollio.html">PORTFOLLIO</a></li>
                 <li><a href="">TARIFS</a></li>
                 <li><a href="">CONTACT</a></li>
                 <li><a href="">A PROPOS</a></li>
@@ -22,16 +51,84 @@
         <!-- END NAV -->
 
         <!-- HEADER -->
-        <header title="Irène Archimbaud Photographie"></header>
+        <header title="Irène Archimbaud Photographie">
+            <div class="header-text">
+                <h1>Photographe Animalier à Lyon - Spécialisée canin & équin</h1>
+                <h2>Irène Archimbaud Photographie</h2>
+            </div>
+        </header>
         <!-- END HEADER -->
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Explorez Mon Portfolio</h2>
+                <div class="portfolio-preview">
+                    <div class="portfolio-item">
+                        <img src="./img/photo-chat1.jpg" alt="Photo d'un chaton">
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./img/photo-chien1.JPG" alt="Photo d'un chien">
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./img/photo-chien2.JPG" alt="Photo d'un chiot">
+                    </div>
+                </div>
+                <a class="portfolio-button" href="./pages/portfollio.html">Voir le Portfolio</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div>
+                    <h2>À Propos</h2>
+                    <div class="a-propos-de-moi">
+                        <div class="profile-image">
+                            <img src="./img/irene-archimbaud.JPG" alt="Photo d'Irène Archimbaud">
+                        </div>
+                        <p>Photographe passionnée depuis 2017, capturer des moments uniques avec vos animaux est indispensable pour moi. En dehors de la photographie, j'aime explorer de nouveaux endroits, rencontrer de nouvelles personnes et partager mes expériences à travers mes images. Mon objectif est de capturer l'essence même de chaque moment, de vos chiens, chevaux et autres animaux; de figer l'instant pour le rendre éternel.</p>
+                    </div>
+                    <a href="./pages/a-propos.html">En savoir plus sur moi</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Vous souhaitez me contacter pour programmer une séance photo inoubliable ?</p>
+                <p>Je suis disponible pour discuter de vos besoins et répondre à toutes vos questions.</p>
+                <p>Vous pouvez me joindre par téléphone au <strong>07.82.49.21.75</strong>.</p>
+                <p>Vous pouvez également me contacter via mes réseaux sociaux :</p>
+                <ul>
+                    <li>
+                        <div><a href="https://www.instagram.com/ireneacd.photographie/?ref=marketsplash.com" target="_blank"><i class="fab fa-instagram"></i><p>@ireneacd.photographie</p></a></div>
+                    </li>
+                    <li>
+                        <div><a href="https://sw-ke.facebook.com/people/Ir%C3%A8ne-Archimbaud/pfbid02fDUvWZr4VujfAxEv3zNWXDdwrP4ufVkagPwqPRzkut8VBBSekF5u6YAMTuXJtULpl/" target="_blank"><i class="fab fa-facebook"></i><p>Irène Archimbaud Photographie</p></a></div>
+                    </li>
+                </ul>
+                <p>Si vous préférez m'envoyer un email, veuillez utiliser le formulaire de contact en cliquant sur le bouton ci-dessous.</p>
+                <a href="./pages/contact.html" class="contact-button">Me Contacter</a>
+            </div>
+        </section>
+
+        <div class="banner-image-container">
+            <div class="overlay">
+                <h1>"La photographie est un arrêt du coeur d'une fraction de seconde..."</h1>
+            </div>
+        </div>
+
+        <div class="scroll-to-top" onclick="scrollToTop()">
+            <span><i class="fas fa-arrow-up"></i></span>
+        </div>
 
         <!-- FOOTER -->
         <footer>
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Irène Archimbaud Photographie</h3>
-                    <p>15 chemin de Pressin 69230 Saint-Genis-Laval</p>
-                    <p>07.99.63.25.53</p>
+                    <p>9 Rue Jean-Eugène Culet, Chaponost</p>
+                    <p>07.82.49.21.75</p>
                     <p>ireneacd.photographie@gmail.com</p>
                 </div>
 
@@ -41,7 +138,7 @@
                 </div>
             </div>
 
-            <p class="copyright">&copy; 2024 Irène Archimbaud Photographie. Tous droits réservés.</p>
+            <p class="copyright">&copy; 2024 Irène Archimbaud Photographie - Photographe animalier Lyon. Tous droits réservés.</p>
         </footer>
         <!-- END FOOTER -->
 

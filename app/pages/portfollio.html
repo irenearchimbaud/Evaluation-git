@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio - Irène Archimbaud Photographie</title>
+        <meta name="description" content="Photographe animalier à Lyon spécialisée en photographie canine et équine. Shooting photo pour chiens, chevaux et animaux de compagnie en Rhône-Alpes.">
+        <meta name="keywords" content="photographe animalier Lyon, photographe canin Lyon, shooting photo chien Lyon, photographe animalier Rhône-Alpes">
+        <meta name="author" content="Irène Archimbaud">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" href="./img/photo-chien-icon.png" type="image/x-icon">
+        <meta property="og:title" content="Photographe Animalier Lyon - Irène Archimbaud">
+        <meta property="og:description" content="Shooting photo pour chiens, chevaux et animaux de compagnie à Lyon et Rhône-Alpes.">
+        <meta property="og:image" content="./img/photo-chien1.JPG">
+        <meta property="og:url" content="https://www.irene-archimbaud-photographie.fr">
+        <meta name="robots" content="index, follow">
+        <script src="../script.js"></script>
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Photographer",
+          "name": "Irène Archimbaud Photographie",
+          "description": "Photographe spécialisée en photographie animalière à Lyon : chiens, chevaux, chats et animaux de compagnie.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9 rue Jean-Eugène Culet",
+            "addressLocality": "Chaponost",
+            "addressRegion": "Rhône-Alpes",
+            "postalCode": "69043",
+            "addressCountry": "FR"
+          },
+          "telephone": "07.82.49.21.75",
+          "email": "ireneacd.photographie@gmail.com",
+          "url": "https://www.irene-archimbaud-photographie.fr"
+        }
+        </script>
+    </head>
+    <body>
+
+        <!-- NAV -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="./portfollio.html">PORTFOLLIO</a></li>
+                <li><a href="./tarifs.html">TARIFS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="./a-propos.html">A PROPOS</a></li>
+            </ul>
+        </nav>
+        <!-- END NAV -->
+
+        <!-- HEADER -->
+        <header class="portfolio-header" title="Irène Archimbaud Photographie">
+            <div class="header-text">
+                <h1>Photographe Animalier à Lyon - Spécialisée canin & équin</h1>
+                <h2>Irène Archimbaud Photographie</h2>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <div class="text-portfolio">
+            <h1 class="title">Des moments inoubliables,</h1>
+            <p class="paragraph">pour vous, pour lui...</p>
+        </div>
+
+        <div class="gallery">
+            <div class="photo"><img src="../img/624A7202.jpg" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/photo-chat1.jpg" alt="Photo d'un chat" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/anakinAIWEB.jpg" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/D5F3EBFA-27FC-40CA-B564-DA958A54151C.jpeg" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_1415.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_2542.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_2759.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/photo-chien3.JPG" alt="photographie de chien" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_3957.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_6850.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/photo-chien-accueil.JPG" alt="photo d'un chiot" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/photo-chien1.JPG" alt="photo de chien" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_7427.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_7516.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/photo-chien2.JPG" alt="photo d'un chiot" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_8265.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_8269.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_8345.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_9932.JPG" onclick="openModal(this.src)"></div>
+            <div class="photo"><img src="../img/IMG_9935.JPG" onclick="openModal(this.src)"></div>
+        </div>
+
+        <div class="scroll-to-top" onclick="scrollToTop()">
+            <span><i class="fas fa-arrow-up"></i></span>
+        </div>
+
+        <div id="myModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImage">
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Irène Archimbaud Photographie</h3>
+                    <p>9 Rue Jean-Eugène Culet, Chaponost</p>
+                    <p>07.82.49.21.75</p>
+                    <p>ireneacd.photographie@gmail.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <a href="https://www.instagram.com/ireneacd.photographie/?ref=marketsplash.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://sw-ke.facebook.com/people/Ir%C3%A8ne-Archimbaud/pfbid02fDUvWZr4VujfAxEv3zNWXDdwrP4ufVkagPwqPRzkut8VBBSekF5u6YAMTuXJtULpl/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <p class="copyright">&copy; 2024 Irène Archimbaud Photographie - Photographe animalier Lyon. Tous droits réservés.</p>
+        </footer>
+        <!-- END FOOTER -->
+    </body>
+</html>
