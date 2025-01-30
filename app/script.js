@@ -19,37 +19,22 @@ document.addEventListener("DOMContentLoaded", function() {
   scrollToTopBtn.addEventListener('click', scrollToTop);
 });
 
-var modal = document.getElementById("myModal");
-var modalContent = document.querySelector(".modal-content");
-var modalImg = document.getElementById("modalImage");
-var body = document.body;
-var isModalOpen = false;
-
-function openModal(imgSrc) {
-  modal.style.display = "flex";
-  modalImg.src = imgSrc;
-
-  body.classList.add('modal-open');
-  modalContent.classList.add('modal-enlarged');
-
-  var closeSpan = document.createElement("span");
-  closeSpan.className = "close";
-  closeSpan.innerHTML = "&times;";
-  closeSpan.onclick = closeModal;
-  modalContent.appendChild(closeSpan);
-
-  isModalOpen = true;
+function toggleMenu() {
+  const menu = document.querySelector('.menu-mobile');
+  menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
 }
 
-function closeModal() {
-  modal.style.display = "none";
-  body.classList.remove('modal-open');
-  modalContent.classList.remove('modal-enlarged');
+document.addEventListener('click', function (event) {
+  const menu = document.querySelector('.menu-mobile');
+  const burger = document.querySelector('.burger');
 
-  var closeSpan = document.querySelector(".close");
-  if (closeSpan) {
-    modalContent.removeChild(closeSpan);
+  if (!menu.contains(event.target) && !burger.contains(event.target)) {
+      menu.style.display = 'none';
   }
+});
 
-  isModalOpen = false;
-}
+document.querySelectorAll('.menu-mobile a').forEach(link => {
+  link.addEventListener('click', () => {
+      document.querySelector('.menu-mobile').style.display = 'none';
+  });
+});

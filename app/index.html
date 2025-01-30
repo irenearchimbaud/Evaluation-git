@@ -9,45 +9,36 @@
         <meta name="author" content="Irène Archimbaud">
         <link rel="stylesheet" type="text/css" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="icon" href="./img/photo-chien-icon.png" type="image/x-icon">
+        <link rel="icon" href="./img/photo-chien-dalmation-chiot-yeux-vairons-bleu-icon.png" type="image/x-icon">
         <meta property="og:title" content="Photographe Animalier Lyon - Irène Archimbaud">
         <meta property="og:description" content="Shooting photo pour chiens, chevaux et animaux de compagnie à Lyon et Rhône-Alpes.">
-        <meta property="og:image" content="./img/photo-chien1.JPG">
+        <meta property="og:image" content="./img/photo-chien-dalmation-chiot-yeux-vairons-bleu-icon">
         <meta property="og:url" content="https://www.irene-archimbaud-photographie.fr">
         <meta name="robots" content="index, follow">
         <script src="./script.js"></script>
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Photographer",
-          "name": "Irène Archimbaud Photographie",
-          "description": "Photographe spécialisée en photographie animalière à Lyon : chiens, chevaux, chats et animaux de compagnie.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "9 rue Jean-Eugène Culet",
-            "addressLocality": "Chaponost",
-            "addressRegion": "Rhône-Alpes",
-            "postalCode": "69043",
-            "addressCountry": "FR"
-          },
-          "telephone": "07.82.49.21.75",
-          "email": "ireneacd.photographie@gmail.com",
-          "url": "https://www.irene-archimbaud-photographie.fr"
-        }
-        </script>
     </head>
     <body>
 
         <!-- NAV -->
-        <nav>
+        <nav class="menu-desktop">
             <ul>
                 <li><a href="./index.html">ACCUEIL</a></li>
                 <li><a href="./pages/portfollio.html">PORTFOLLIO</a></li>
-                <li><a href="">TARIFS</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li><a href="">A PROPOS</a></li>
+                <li><a href="./pages/tarifs.html">TARIFS</a></li>
+                <li><a href="./pages/contact.html">CONTACT</a></li>
+                <li><a href="./pages/a-propos.html">A PROPOS</a></li>
             </ul>
         </nav>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./pages/portfollio.html">PORTFOLLIO</a></li>
+                <li><a href="./pages/tarifs.html">TARIFS</a></li>
+                <li><a href="./pages/contact.html">CONTACT</a></li>
+                <li><a href="./pages/a-propos.html">A PROPOS</a></li>
+            </ul>
+        </nav>
+        <div class="burger" onclick="toggleMenu()"><i class="fas fa-bars fa-lg"></i></div>
         <!-- END NAV -->
 
         <!-- HEADER -->
@@ -63,14 +54,14 @@
             <div class="container">
                 <h2>Explorez Mon Portfolio</h2>
                 <div class="portfolio-preview">
-                    <div class="portfolio-item">
-                        <img src="./img/photo-chat1.jpg" alt="Photo d'un chaton">
+                    <div class="portfolio-item item-desktop">
+                        <img src="./img/photo-chat-chaton-beige-blanc-roux-mignon.jpg" alt="Chaton roux et blanc dans son panier cocooning">
                     </div>
                     <div class="portfolio-item">
-                        <img src="./img/photo-chien1.JPG" alt="Photo d'un chien">
+                        <img src="./img/photo-chien-shih-tzu-shihtzu-foret-bland-gris.JPG" alt="Chien Shih Tzu sur une souche d'arbre en forêt">
                     </div>
                     <div class="portfolio-item">
-                        <img src="./img/photo-chien2.JPG" alt="Photo d'un chiot">
+                        <img src="./img/photo-chien-dalmatien-chiot-neige-yeux-vairons-bleu.JPG" alt="Chiot dalmatien dans un paysage hivernal enneigé">
                     </div>
                 </div>
                 <a class="portfolio-button" href="./pages/portfollio.html">Voir le Portfolio</a>
@@ -82,8 +73,8 @@
                 <div>
                     <h2>À Propos</h2>
                     <div class="a-propos-de-moi">
-                        <div class="profile-image">
-                            <img src="./img/irene-archimbaud.JPG" alt="Photo d'Irène Archimbaud">
+                        <div class="profile-image profile-image-index">
+                            <img src="./img/photo-irene-archimbaud.JPG" alt="Photo de la photographe Irène Archimbaud">
                         </div>
                         <p>Photographe passionnée depuis 2017, capturer des moments uniques avec vos animaux est indispensable pour moi. En dehors de la photographie, j'aime explorer de nouveaux endroits, rencontrer de nouvelles personnes et partager mes expériences à travers mes images. Mon objectif est de capturer l'essence même de chaque moment, de vos chiens, chevaux et autres animaux; de figer l'instant pour le rendre éternel.</p>
                     </div>
